@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: darkgrey;
+    color: green;
+    margin: 30px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+footer p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.btn-login {
+    width: 100px;
+    height: 40px;
+    background: rgb(251, 153, 16);
+    color: rgb(242, 236, 236);
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+#isi_katalog {
+    height: 200px;
+    /* Atur tinggi sesuai kebutuhan */
+    width: 100%;
+    /* Atur lebar sesuai kebutuhan */
+}
+
+.crud-container h1 {
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+}
+
+.judulartikel {
+    border-left: 6px solid #163020;
+}
+
+
+.navbar-nav {
+    justify-content: center;
+    margin-left: 50px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    justify-content: left;
+}
+
+
+
+
+
+.tab-quote {
+    border-left: 4px solid #bf9270;
+    font-size: 30px;
+    font-weight: 600;
+    color: #bf9270;
+    margin-bottom: 50px;
+}
+
+#hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 30px;
+    background-size: cover;
+    margin-bottom: 50px;
+    padding: 100px;
+}
+
+#hero {
+    background-size: cover;
+    margin-bottom: 50px;
+    padding: 80px;
+}
+
+.hero1 {
+    font-weight: bolder;
+    color: #bf9270;
+    font-size: 35px;
+}
+
+.hero2 {
+    font-weight: 500;
+    color: #55483e;
+    line-height: 32px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+#hero-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+#hero-greeting {
+    text-align: center;
+}
+
+/* JUDUL */
+
+.tab-quote {
+    border-left: 4px solid #bf9270;
+    font-size: 30px;
+    font-weight: 600;
+    color: #bf9270;
+    margin-bottom: 50px;
+}
+
+
+.navbar-nav .nav-link {
+    color: gray;
+}
+
+.navbar-nav .nav-link.active {
+    color: black;
+}
+
+.background-container {
+    background-image: url('/img/wed.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 600px; /* Sesuaikan dengan kebutuhan tinggi gambar */
+    padding: 50px; /* Atur jarak antara gambar dan form */
+}
+
+.search {
+    display: inline-block;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+
+.search input[type="text"] {
+    width: 500px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search button[type="submit"] {
+    background-color: rgb(251, 153, 16);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: .9s ease;
+}
